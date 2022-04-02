@@ -1,0 +1,16 @@
+{
+  "name": "minimal-example",
+  "version": "0.0.0-versionless",
+  "scripts": {
+    "build": "yarn babel test.ts"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "babel-plugin-relay": "^13.2.0",
+    "react-relay": "^13.2.0",
+    "relay-compiler": "^13.2.0"
+  }
+}
