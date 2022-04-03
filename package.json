@@ -2,7 +2,8 @@
   "name": "minimal-example",
   "version": "0.0.0-versionless",
   "scripts": {
-    "build": "yarn babel test.js"
+    "build": "yarn babel test.js",
+    "build:only-babel-plugin": "yarn babel --plugins=@babel/plugin-transform-modules-commonjs result-of-only-relay-plugin.js"
   },
   "dependencies": {
     "@babel/cli": "^7.17.6",
