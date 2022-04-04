@@ -4,7 +4,7 @@ module.exports = (api) => {
   return {
     plugins: [
       'relay',
-      // '@babel/plugin-transform-modules-commonjs',
+      '@babel/plugin-transform-modules-commonjs',
     ],
   };
 };
